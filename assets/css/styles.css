@@ -2,30 +2,26 @@
 *,
 *:after,
 *:before{
-    margin: 0;
+    margin: auto 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
 
-
-
-/*mis clases*/
-/* con #id  */
 body{
       justify-content: center;
       align-items: center;
+      
 }
 section {
     min-height: 100vh;
     padding-top: 4rem;
     display: flex;
-    
+   
      
 }
 article{
     margin-top: 4rem;
-  
 }
 
 #formacion{
@@ -90,8 +86,7 @@ p{
     font-family: "Montserrat", sans-serif;
     font-style: italic;
     line-height: 90px;
-    text-transform: inherit;
-    
+    text-transform: inherit; 
 }
 
 
@@ -119,14 +114,9 @@ ul.nav.tab-style--1 {
     margin: 0 -20px;
     flex-wrap: wrap;
     border: 0 none;
-  
 }
 
 .principal{
-    /*
-    width: 400px;
-    height: 400px;
-    border: 2px solid #b8b7b6;*/
     border-radius: 10px;
     overflow: hidden;
 }
