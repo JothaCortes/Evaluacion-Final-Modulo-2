@@ -2,7 +2,7 @@
 *,
 *:after,
 *:before{
-    margin: auto 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
@@ -16,12 +16,12 @@ body{
 section {
     min-height: 100vh;
     padding-top: 4rem;
-    display: flex;
-   
-     
+    display: flex;  
 }
+
+
 article{
-    margin-top: 4rem;
+    padding-top: 2rem;
 }
 
 #formacion{
@@ -29,12 +29,16 @@ article{
 }
 #proyectos{
      background: linear-gradient( #f8d1ab, #ffffff);
+
 }
 
 .btn-primary{
     background-color: #ffa650;
     border-color: #ffa650;
     color: #1d1d24;
+    --bs-btn-active-color:#1d1d24;
+    --bs-btn-active-border-color:#b66213;
+    --bs-btn-active-bg: #b66213;
 }
 .btn-primary:hover{
     background-color: #f0892a;
